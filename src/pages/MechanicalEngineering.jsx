@@ -31,7 +31,7 @@ function MechanicalEngineering() {
     }
 
     try {
-      const res = await fetch('http://localhost:5000/api/score/mechanical-engineering', {
+      const res = await fetch('https://hireprep-backend-px4h.onrender.com/api/score/mechanical-engineering', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ answers })

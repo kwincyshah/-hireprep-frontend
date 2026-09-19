@@ -31,7 +31,7 @@ function SalesExecutive() {
     }
 
     try {
-      const res = await fetch('http://localhost:5000/api/score/sales-executive', {
+      const res = await fetch('https://hireprep-backend-px4h.onrender.com/api/score/sales-executive', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ answers })

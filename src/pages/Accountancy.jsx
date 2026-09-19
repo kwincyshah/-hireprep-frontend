@@ -31,7 +31,7 @@ function Accountancy() {
     }
 
     try {
-      const res = await fetch('http://localhost:5000/api/score/accountancy', {
+      const res = await fetch('https://hireprep-backend-px4h.onrender.com/api/score/accountancy', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ answers })
