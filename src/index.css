@@ -1,0 +1,22 @@
+:root {
+  --color-offwhite: #FAF9F6;
+  --color-steelblue: #4682B4;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-offwhite);
+  color: var(--color-black);
+}
+
+.logo-font {
+  font-family: 'Cinzel Decorative', serif;
+}

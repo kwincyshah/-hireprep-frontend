@@ -1,0 +1,102 @@
+.login-page {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.login-image-side {
+  flex: 1;
+}
+
+.login-image-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.login-form-side {
+  flex: 1;
+  background-color: var(--color-offwhite);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  width: 480px;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+}
+
+.login-card-header {
+  background-color: var(--color-steelblue);
+  color: var(--color-white);
+  text-align: center;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  padding: 26px 0;
+}
+
+.login-card-body {
+  background-color: var(--color-white);
+  padding: 45px 40px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-card-body label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 22px;
+  margin-bottom: 8px;
+  color: var(--color-black);
+}
+
+.login-card-body input {
+  border: 2px solid var(--color-steelblue);
+  border-radius: 24px;
+  padding: 14px 20px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}
+
+.login-continue-btn {
+  margin-top: 30px;
+  background-color: var(--color-steelblue);
+  color: var(--color-white);
+  border: none;
+  padding: 16px;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.login-continue-btn:hover {
+  opacity: 0.9;
+}
+
+.login-message {
+  font-size: 13px;
+  color: #cc0000;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.login-toggle-text {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 18px;
+  color: #555;
+}
+
+.login-toggle-text span {
+  color: var(--color-steelblue);
+  font-weight: 600;
+  cursor: pointer;
+}
