@@ -6,7 +6,7 @@
 .hero-section {
   position: relative;
   width: 100%;
-  height: clamp(280px, 70vh, 650px);
+  height: clamp(320px, 80vh, 750px);
   overflow: hidden;
 }
 
@@ -22,7 +22,7 @@
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: clamp(50px, 15vw, 170px);
+  font-size: clamp(50px, 20vw, 250px);
   color: var(--color-white);
   letter-spacing: 6px;
   text-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
